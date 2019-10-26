@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  ArtistModel.m
 //  MusicPlayer
 //
 //  Created by abuzeid on 10/21/19.
 //  Copyright © 2019 abuzeid. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ArtistModel.h"
 
-@interface ViewController : UIViewController
-
+@implementation ArtistModel
 
 @end
-

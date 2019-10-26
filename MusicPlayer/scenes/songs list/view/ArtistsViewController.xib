@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ArtistsViewController">
+            <connections>
+                <outlet property="errorContainerView" destination="Dcm-p8-pJ6" id="ado-Jf-iIB"/>
+                <outlet property="errorLbl" destination="ihQ-5c-LFa" id="5sM-Mr-LpU"/>
+                <outlet property="tableView" destination="KKd-8m-Q3H" id="GM1-jl-ENq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DlJ-hN-AIv">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KKd-8m-Q3H">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="768"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        </tableView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dcm-p8-pJ6">
+                            <rect key="frame" x="0.0" y="768" width="414" height="50"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error handler" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihQ-5c-LFa">
+                                    <rect key="frame" x="8" y="8" width="398" height="34"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="ihQ-5c-LFa" firstAttribute="top" secondItem="Dcm-p8-pJ6" secondAttribute="top" constant="8" id="2zP-Cm-Zip"/>
+                                <constraint firstItem="ihQ-5c-LFa" firstAttribute="leading" secondItem="Dcm-p8-pJ6" secondAttribute="leading" constant="8" id="TPp-pA-dat"/>
+                                <constraint firstAttribute="trailing" secondItem="ihQ-5c-LFa" secondAttribute="trailing" constant="8" id="jXG-45-N6n"/>
+                                <constraint firstAttribute="bottom" secondItem="ihQ-5c-LFa" secondAttribute="bottom" constant="8" id="oo7-oN-60y"/>
+                                <constraint firstAttribute="height" constant="50" id="rs4-Wu-OOF"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="DlJ-hN-AIv" secondAttribute="trailing" id="L7Z-mh-kGy"/>
+                <constraint firstItem="DlJ-hN-AIv" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="N5G-gn-x9o"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="DlJ-hN-AIv" secondAttribute="bottom" id="Nob-RG-TBf"/>
+                <constraint firstItem="DlJ-hN-AIv" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="sEB-8b-O7e"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="139" y="142"/>
+        </view>
+    </objects>
+</document>

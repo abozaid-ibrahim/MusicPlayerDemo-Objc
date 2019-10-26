@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ArtistsViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,26 +16,35 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    [self setRootController];
     return YES;
 }
-
-
-#pragma mark - UISceneSession lifecycle
-
-
-- (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
-    // Called when a new scene session is being created.
-    // Use this method to select a configuration to create the new scene with.
-    return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
+-(void)setRootController{
+    [self setWindow:[[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds]];
+    UIViewController *mainController = [[ArtistsViewController alloc] initWithNibName:@"ArtistsViewController" bundle:nil];
+    UINavigationController *root = [[UINavigationController alloc] initWithRootViewController:mainController];
+    [self.window setRootViewController:root];
+    [self.window makeKeyAndVisible];
+    
+//    [self testBlock];
+    
 }
 
+//- (void)testBlock {
+//    NSString *temp = [[NSString alloc] initWithString:@"temp"];
+//    NSLog(@">a %d", temp.retainCount);
+//    dispatch_async(dispatch_get_current_queue(), ^{
+//        NSLog(@">b %d", temp.retainCont);//2
+//        dispatch_async(dispatch_get_current_queue(), ^{
+//            NSLog(@">%@", temp);//3
+//            NSLog(@">c %d", temp.retainCount);//3
+//        });
+//        NSLog(@">d %d", temp.retainCount);
+//    });
+//       NSLog(@">e %d", temp.retainCount);
+//}
 
-- (void)application:(UIApplication *)application didDiscardSceneSessions:(NSSet<UISceneSession *> *)sceneSessions {
-    // Called when the user discards a scene session.
-    // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-    // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-}
 
 
 @end

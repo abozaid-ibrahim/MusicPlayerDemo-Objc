@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  ArtistTableViewCell.h
 //  MusicPlayer
 //
 //  Created by abuzeid on 10/21/19.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface ArtistTableViewCell : UITableViewCell
 
 @end
 
+NS_ASSUME_NONNULL_END

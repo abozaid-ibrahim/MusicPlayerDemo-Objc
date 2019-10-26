@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C8B0E36235F29B300922CD5 /* APIRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B0E35235F29B300922CD5 /* APIRequestBuilder.m */; };
+		6C8B0E39235F373900922CD5 /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B0E38235F373900922CD5 /* NSString+URL.m */; };
 		6CD1696D235DE9A800FD1F13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD1696C235DE9A800FD1F13 /* AppDelegate.m */; };
-		6CD16970235DE9A800FD1F13 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD1696F235DE9A800FD1F13 /* SceneDelegate.m */; };
-		6CD16973235DE9A800FD1F13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD16972235DE9A800FD1F13 /* ViewController.m */; };
-		6CD16976235DE9A800FD1F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD16974235DE9A800FD1F13 /* Main.storyboard */; };
 		6CD16978235DE9AA00FD1F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD16977235DE9AA00FD1F13 /* Assets.xcassets */; };
 		6CD1697B235DE9AA00FD1F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD16979235DE9AA00FD1F13 /* LaunchScreen.storyboard */; };
 		6CD1697E235DE9AA00FD1F13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD1697D235DE9AA00FD1F13 /* main.m */; };
 		6CD16988235DE9AA00FD1F13 /* MusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD16987235DE9AA00FD1F13 /* MusicPlayerTests.m */; };
+		6CD1699C235DEEA500FD1F13 /* ArtistsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD1699A235DEEA500FD1F13 /* ArtistsViewController.m */; };
+		6CD1699D235DEEA500FD1F13 /* ArtistsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD1699B235DEEA500FD1F13 /* ArtistsViewController.xib */; };
+		6CD169A6235DF04D00FD1F13 /* ArtistsListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD169A5235DF04D00FD1F13 /* ArtistsListViewModel.m */; };
+		6CD169A9235DF8ED00FD1F13 /* ArtistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD169A8235DF8ED00FD1F13 /* ArtistModel.m */; };
+		6CD169AE235DF96900FD1F13 /* ArtistTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD169AC235DF96900FD1F13 /* ArtistTableViewCell.m */; };
+		6CD169AF235DF96900FD1F13 /* ArtistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD169AD235DF96900FD1F13 /* ArtistTableViewCell.xib */; };
+		6CD169B5235E182000FD1F13 /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD169B4235E182000FD1F13 /* APIClient.m */; };
+		6CD169BA235E223000FD1F13 /* APIConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD169B9235E223000FD1F13 /* APIConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C8B0E34235F29B300922CD5 /* APIRequestBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIRequestBuilder.h; sourceTree = "<group>"; };
+		6C8B0E35235F29B300922CD5 /* APIRequestBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIRequestBuilder.m; sourceTree = "<group>"; };
+		6C8B0E37235F373900922CD5 /* NSString+URL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+URL.h"; sourceTree = "<group>"; };
+		6C8B0E38235F373900922CD5 /* NSString+URL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+URL.m"; sourceTree = "<group>"; };
 		6CD16968235DE9A800FD1F13 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD1696B235DE9A800FD1F13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6CD1696C235DE9A800FD1F13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6CD1696E235DE9A800FD1F13 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		6CD1696F235DE9A800FD1F13 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		6CD16971235DE9A800FD1F13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6CD16972235DE9A800FD1F13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6CD16975235DE9A800FD1F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CD16977235DE9AA00FD1F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CD1697A235DE9AA00FD1F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CD1697C235DE9AA00FD1F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +49,22 @@
 		6CD16983235DE9AA00FD1F13 /* MusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD16987235DE9AA00FD1F13 /* MusicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerTests.m; sourceTree = "<group>"; };
 		6CD16989235DE9AA00FD1F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD16999235DEEA500FD1F13 /* ArtistsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistsViewController.h; sourceTree = "<group>"; };
+		6CD1699A235DEEA500FD1F13 /* ArtistsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtistsViewController.m; sourceTree = "<group>"; };
+		6CD1699B235DEEA500FD1F13 /* ArtistsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtistsViewController.xib; sourceTree = "<group>"; };
+		6CD169A1235DEFFC00FD1F13 /* ArtistsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistsViewModel.h; sourceTree = "<group>"; };
+		6CD169A4235DF04D00FD1F13 /* ArtistsListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistsListViewModel.h; sourceTree = "<group>"; };
+		6CD169A5235DF04D00FD1F13 /* ArtistsListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtistsListViewModel.m; sourceTree = "<group>"; };
+		6CD169A7235DF8ED00FD1F13 /* ArtistModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistModel.h; sourceTree = "<group>"; };
+		6CD169A8235DF8ED00FD1F13 /* ArtistModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtistModel.m; sourceTree = "<group>"; };
+		6CD169AB235DF96900FD1F13 /* ArtistTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistTableViewCell.h; sourceTree = "<group>"; };
+		6CD169AC235DF96900FD1F13 /* ArtistTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtistTableViewCell.m; sourceTree = "<group>"; };
+		6CD169AD235DF96900FD1F13 /* ArtistTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtistTableViewCell.xib; sourceTree = "<group>"; };
+		6CD169B3235E182000FD1F13 /* APIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
+		6CD169B4235E182000FD1F13 /* APIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
+		6CD169B7235E183900FD1F13 /* HttpClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpClient.h; sourceTree = "<group>"; };
+		6CD169B8235E223000FD1F13 /* APIConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIConstants.h; sourceTree = "<group>"; };
+		6CD169B9235E223000FD1F13 /* APIConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,13 +106,11 @@
 		6CD1696A235DE9A800FD1F13 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				6CD169B2235E180600FD1F13 /* network layer */,
+				6CD1699E235DEEC700FD1F13 /* categories */,
+				6CD16997235DED6800FD1F13 /* scenes */,
 				6CD1696B235DE9A800FD1F13 /* AppDelegate.h */,
 				6CD1696C235DE9A800FD1F13 /* AppDelegate.m */,
-				6CD1696E235DE9A800FD1F13 /* SceneDelegate.h */,
-				6CD1696F235DE9A800FD1F13 /* SceneDelegate.m */,
-				6CD16971235DE9A800FD1F13 /* ViewController.h */,
-				6CD16972235DE9A800FD1F13 /* ViewController.m */,
-				6CD16974235DE9A800FD1F13 /* Main.storyboard */,
 				6CD16977235DE9AA00FD1F13 /* Assets.xcassets */,
 				6CD16979235DE9AA00FD1F13 /* LaunchScreen.storyboard */,
 				6CD1697C235DE9AA00FD1F13 /* Info.plist */,
@@ -106,6 +126,87 @@
 				6CD16989235DE9AA00FD1F13 /* Info.plist */,
 			);
 			path = MusicPlayerTests;
+			sourceTree = "<group>";
+		};
+		6CD16997235DED6800FD1F13 /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6CD16998235DED7F00FD1F13 /* songs list */,
+			);
+			path = scenes;
+			sourceTree = "<group>";
+		};
+		6CD16998235DED7F00FD1F13 /* songs list */ = {
+			isa = PBXGroup;
+			children = (
+				6CD169B1235DF98A00FD1F13 /* model */,
+				6CD169B0235DF97A00FD1F13 /* vmodel */,
+				6CD169AA235DF95100FD1F13 /* view */,
+			);
+			path = "songs list";
+			sourceTree = "<group>";
+		};
+		6CD1699E235DEEC700FD1F13 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				6CD169A0235DEEE400FD1F13 /* Wrappers */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+		6CD169A0235DEEE400FD1F13 /* Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				6C8B0E37235F373900922CD5 /* NSString+URL.h */,
+				6C8B0E38235F373900922CD5 /* NSString+URL.m */,
+			);
+			path = Wrappers;
+			sourceTree = "<group>";
+		};
+		6CD169AA235DF95100FD1F13 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6CD16999235DEEA500FD1F13 /* ArtistsViewController.h */,
+				6CD1699A235DEEA500FD1F13 /* ArtistsViewController.m */,
+				6CD1699B235DEEA500FD1F13 /* ArtistsViewController.xib */,
+				6CD169AB235DF96900FD1F13 /* ArtistTableViewCell.h */,
+				6CD169AC235DF96900FD1F13 /* ArtistTableViewCell.m */,
+				6CD169AD235DF96900FD1F13 /* ArtistTableViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6CD169B0235DF97A00FD1F13 /* vmodel */ = {
+			isa = PBXGroup;
+			children = (
+				6CD169A1235DEFFC00FD1F13 /* ArtistsViewModel.h */,
+				6CD169A4235DF04D00FD1F13 /* ArtistsListViewModel.h */,
+				6CD169A5235DF04D00FD1F13 /* ArtistsListViewModel.m */,
+			);
+			name = vmodel;
+			sourceTree = "<group>";
+		};
+		6CD169B1235DF98A00FD1F13 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6CD169A7235DF8ED00FD1F13 /* ArtistModel.h */,
+				6CD169A8235DF8ED00FD1F13 /* ArtistModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6CD169B2235E180600FD1F13 /* network layer */ = {
+			isa = PBXGroup;
+			children = (
+				6CD169B7235E183900FD1F13 /* HttpClient.h */,
+				6CD169B3235E182000FD1F13 /* APIClient.h */,
+				6CD169B4235E182000FD1F13 /* APIClient.m */,
+				6CD169B8235E223000FD1F13 /* APIConstants.h */,
+				6CD169B9235E223000FD1F13 /* APIConstants.m */,
+				6C8B0E34235F29B300922CD5 /* APIRequestBuilder.h */,
+				6C8B0E35235F29B300922CD5 /* APIRequestBuilder.m */,
+			);
+			path = "network layer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,9 +289,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CD1699D235DEEA500FD1F13 /* ArtistsViewController.xib in Resources */,
 				6CD1697B235DE9AA00FD1F13 /* LaunchScreen.storyboard in Resources */,
+				6CD169AF235DF96900FD1F13 /* ArtistTableViewCell.xib in Resources */,
 				6CD16978235DE9AA00FD1F13 /* Assets.xcassets in Resources */,
-				6CD16976235DE9A800FD1F13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,10 +310,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CD16973235DE9A800FD1F13 /* ViewController.m in Sources */,
+				6CD169BA235E223000FD1F13 /* APIConstants.m in Sources */,
+				6CD169A9235DF8ED00FD1F13 /* ArtistModel.m in Sources */,
+				6CD169B5235E182000FD1F13 /* APIClient.m in Sources */,
 				6CD1696D235DE9A800FD1F13 /* AppDelegate.m in Sources */,
+				6CD169AE235DF96900FD1F13 /* ArtistTableViewCell.m in Sources */,
+				6CD1699C235DEEA500FD1F13 /* ArtistsViewController.m in Sources */,
 				6CD1697E235DE9AA00FD1F13 /* main.m in Sources */,
-				6CD16970235DE9A800FD1F13 /* SceneDelegate.m in Sources */,
+				6C8B0E39235F373900922CD5 /* NSString+URL.m in Sources */,
+				6CD169A6235DF04D00FD1F13 /* ArtistsListViewModel.m in Sources */,
+				6C8B0E36235F29B300922CD5 /* APIRequestBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,14 +342,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6CD16974235DE9A800FD1F13 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6CD16975235DE9A800FD1F13 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6CD16979235DE9AA00FD1F13 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
