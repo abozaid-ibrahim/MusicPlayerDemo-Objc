@@ -22,7 +22,8 @@
 }
 -(void)setRootController{
     [self setWindow:[[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds]];
-    UIViewController *mainController = [[ArtistsViewController alloc] initWithNibName:@"ArtistsViewController" bundle:nil];
+    UIViewController *mainController = [[ArtistsViewController alloc] initWithViewModel:[ArtistsListViewModel new]];
+    
     UINavigationController *root = [[UINavigationController alloc] initWithRootViewController:mainController];
     [self.window setRootViewController:root];
     [self.window makeKeyAndVisible];

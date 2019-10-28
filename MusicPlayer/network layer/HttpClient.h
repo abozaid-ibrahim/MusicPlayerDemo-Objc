@@ -6,11 +6,6 @@
 //  Copyright © 2019 abuzeid. All rights reserved.
 //
 
-#ifndef HttpClient_h
-#define HttpClient_h
-
-#endif
-
 /* HttpClient_h */
 typedef void (^CompletionHandler)(id _Nullable results, NSError * _Nullable error);
 
@@ -25,3 +20,11 @@ typedef void (^CompletionHandler)(id _Nullable results, NSError * _Nullable erro
 
 
 
+@interface Result<A> : NSObject
+
+- (void)handleSuccess:(void(^)(A))success
+              failure:(void(^)(NSError *))failure;
+
+@property (nonatomic) A object;
+
+@end

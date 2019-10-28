@@ -11,7 +11,13 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ArtistModel : NSObject
-
+@property NSString* songId;
+@property NSString* userId;
+@property NSString* waveform_url;
+@property NSString* stream_url;
+@property NSString* preview_url;
+-(instancetype)initWithDic:(NSDictionary*) dic;
 @end
 
 NS_ASSUME_NONNULL_END
+

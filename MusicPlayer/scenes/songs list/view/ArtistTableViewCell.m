@@ -7,7 +7,7 @@
 //
 
 #import "ArtistTableViewCell.h"
-
+#import "ArtistsViewController.h"
 @implementation ArtistTableViewCell
 
 - (void)awakeFromNib {
@@ -17,7 +17,8 @@
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-
+    ArtistsViewController *vc  = [ArtistsViewController new];
+    
     // Configure the view for the selected state
 }
 

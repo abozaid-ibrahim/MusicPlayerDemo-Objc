@@ -13,7 +13,10 @@
 //@import UIKI
 //@class ArtistsListViewModel;
 
-@interface ArtistsViewController : UIViewController
+@interface ArtistsViewController : UIViewController{
+    NSString *test;
+}
+@property NSString *tst;
 //@property (strong,nonatomic) id<ArtistsViewModel> viewModel;
 //-(instancetype)initWithViewModel:(NSObject<ArtistsViewModel>*)viewModel;
 -(instancetype)initWithViewModel:(ArtistsListViewModel*)viewModel;

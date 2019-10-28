@@ -7,33 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1969B7A4-7205-4EB5-86CD-F85BA919A427"
+            uuid = "E941BB5D-4B6D-41BF-97EC-A4AA34DC8898"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MusicPlayer/network layer/APIClient.m"
-            timestampString = "593782500.8663141"
+            filePath = "MusicPlayer/scenes/songs list/view/ArtistsViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "-buildRequest:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MusicPlayer/scenes/songs list/ArtistsListViewModel.m"
-            timestampString = "593782500.866399"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "-loadData"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "-setupTableView"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
